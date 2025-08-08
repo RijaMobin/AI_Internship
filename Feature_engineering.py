@@ -1,5 +1,6 @@
-# Enhanced Feature Engineering with step-by-step change log
-# Save as Feature_engineering.py and run locally (no ChatGPT-only modules)
+# 📌 Complete Feature Engineering Example (Offline Synthetic Dataset)
+# This code demonstrates ALL main feature engineering techniques
+# with detailed comments explaining how each step is handled.
 
 import pandas as pd
 import numpy as np
@@ -231,3 +232,4 @@ pp.pprint(change_log)
 df.to_csv("feature_engineered_after.csv", index=False)
 before_data.to_csv("feature_engineered_before.csv", index=False)
 print("\nSaved 'feature_engineered_before.csv' and 'feature_engineered_after.csv' in current folder.")
+
